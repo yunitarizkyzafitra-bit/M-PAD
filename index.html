@@ -519,17 +519,17 @@
                 return ((nominalAktual / nilaiTarget) * 100).toFixed(2) + "%";
             }
 
-            const nominalLainLainTerbaca = 2880000;
-
+            // Semua kolom sekarang mengambil nilai dinamis dari variabel breakdownSewa
             document.getElementById("pos-rumah").innerText = konversiKeRupiah(breakdownSewa.rumah) + " (" + hitungPersentase(breakdownSewa.rumah, targetSewa.rumah) + ")";
             document.getElementById("pos-kantin").innerText = konversiKeRupiah(breakdownSewa.kantin) + " (" + hitungPersentase(breakdownSewa.kantin, targetSewa.kantin) + ")";
             document.getElementById("pos-tenis").innerText = konversiKeRupiah(breakdownSewa.tenis) + " (" + hitungPersentase(breakdownSewa.tenis, targetSewa.tenis) + ")";
             document.getElementById("pos-badminton").innerText = konversiKeRupiah(breakdownSewa.badminton) + " (" + hitungPersentase(breakdownSewa.badminton, targetSewa.badminton) + ")";
             document.getElementById("pos-masjid").innerText = konversiKeRupiah(breakdownSewa.masjid) + " (" + hitungPersentase(breakdownSewa.masjid, targetSewa.masjid) + ")";
             document.getElementById("pos-pelataran").innerText = konversiKeRupiah(breakdownSewa.pelataran) + " (" + hitungPersentase(breakdownSewa.pelataran, targetSewa.pelataran) + ")";
-            document.getElementById("pos-lain").innerText = konversiKeRupiah(nominalLainLainTerbaca) + " (" + hitungPersentase(nominalLainLainTerbaca, targetSewa.lain) + ")";
+            
+            // Kolom Lain-lain sekarang bersifat dinamis mengikuti data sistem
+            document.getElementById("pos-lain").innerText = konversiKeRupiah(breakdownSewa.lain) + " (" + hitungPersentase(breakdownSewa.lain, targetSewa.lain) + ")";
         }
-
         function renderDaftarBulananKiri(petaBulanan) {
             const containerBulan = document.getElementById("container-bulanan");
             if (!containerBulan) return;
