@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplikasi M-PAD - Dinas CIKASDA</title>
+    <title>Executive Dashboard M-PAD - Dinas CIKASDA</title>
     
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -13,8 +12,8 @@
     <link rel="apple-touch-icon" href="73773_2.jpg">
     <link rel="apple-touch-icon" sizes="152x152" href="73773_2.jpg">
     <link rel="apple-touch-icon" sizes="180x180" href="73773_2.jpg">
-    <link rel="icon" type="image/jpeg" sizes="192x192" href="73773_2.jpg">
-    <link rel="icon" type="image/jpeg" sizes="512x512" href="73773_2.jpg">
+    <link class="icon" type="image/jpeg" sizes="192x192" href="73773_2.jpg">
+    <link class="icon" type="image/jpeg" sizes="512x512" href="73773_2.jpg">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -71,7 +70,7 @@
                     </div>
                     <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight mt-1.5">Dinas Cipta Karya dan Sumber Daya Air</h1>
                     <p class="text-xs text-cikasda-lightyellow/80 font-semibold flex items-center gap-1.5 mt-1">
-                        <i class="fa-solid fa-building-user text-cikasda-yellow"></i> Aplikasi Pendapatan Daerah (PAD) • Provinsi Sulawesi Tengah
+                        <i class="fa-solid fa-building-user text-cikasda-yellow"></i> Aplikasi M-PAD 2026 • Provinsi Sulawesi Tengah
                     </p>
                 </div>
             </div>
@@ -127,37 +126,37 @@
                 <div class="glass-panel p-3.5 rounded-xl border-t-4 border-cikasda-blue bg-cikasda-cardbg">
                     <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Rumah Dinas</span>
                     <span id="pos-rumah" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
-                    <div id="pct-rumah" class="text-[10px] text-cikasda-lightblue font-bold mt-1">Capaian: 0.00%</div>
+                    <span class="text-[8px] font-bold text-cikasda-lightblue/80 mt-1 block">Target: Rp. 21.360.000/Tahun</span>
                 </div>
                 <div class="glass-panel p-3.5 rounded-xl border-t-4 border-cikasda-yellow bg-cikasda-cardbg">
                     <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Sewa Kantin</span>
                     <span id="pos-kantin" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
-                    <div id="pct-kantin" class="text-[10px] text-cikasda-lightblue font-bold mt-1">Capaian: 0.00%</div>
+                    <span class="text-[8px] font-bold text-cikasda-lightblue/80 mt-1 block">Target: Rp. 5.000.000/Tahun</span>
                 </div>
                 <div class="glass-panel p-3.5 rounded-xl border-t-4 border-emerald-600 bg-cikasda-cardbg">
                     <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Lap. Tenis</span>
                     <span id="pos-tenis" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
-                    <div id="pct-tenis" class="text-[10px] text-cikasda-lightblue font-bold mt-1">Capaian: 0.00%</div>
+                    <span class="text-[8px] font-bold text-cikasda-lightblue/80 mt-1 block">Target: Rp. 9.000.000/Tahun</span>
                 </div>
                 <div class="glass-panel p-3.5 rounded-xl border-t-4 border-indigo-600 bg-cikasda-cardbg">
                     <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Badminton</span>
                     <span id="pos-badminton" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
-                    <div id="pct-badminton" class="text-[10px] text-cikasda-lightblue font-bold mt-1">Capaian: 0.00%</div>
+                    <span class="text-[8px] font-bold text-cikasda-lightblue/80 mt-1 block">Target: Rp. 7.500.000/Tahun</span>
                 </div>
                 <div class="glass-panel p-3.5 rounded-xl border-t-4 border-teal-600 bg-cikasda-cardbg">
                     <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Aula Masjid Raya</span>
                     <span id="pos-masjid" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
-                    <div id="pct-masjid" class="text-[10px] text-cikasda-lightblue font-bold mt-1">Capaian: 0.00%</div>
+                    <span class="text-[8px] font-bold text-cikasda-lightblue/80 mt-1 block">Target: Rp. 0 / Tahun</span>
                 </div>
                 <div class="glass-panel p-3.5 rounded-xl border-t-4 border-cyan-500 bg-cikasda-cardbg">
                     <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Pelataran Msd</span>
                     <span id="pos-pelataran" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
-                    <div id="pct-pelataran" class="text-[10px] text-cikasda-lightblue font-bold mt-1">Capaian: 0.00%</div>
+                    <span class="text-[8px] font-bold text-cikasda-lightblue/80 mt-1 block">Target: Rp. 0/Tahun</span>
                 </div>
                 <div class="glass-panel p-3.5 rounded-xl border-t-4 border-amber-600 bg-cikasda-cardbg">
                     <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Lain-Lain</span>
                     <span id="pos-lain" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
-                    <div id="pct-lain" class="text-[10px] text-cikasda-lightblue font-bold mt-1">Capaian: 0.00%</div>
+                    <span class="text-[8px] font-bold text-cikasda-lightblue/80 mt-1 block">Target: Rp. 2.448.000/Tahun</span>
                 </div>
             </div>
         </section>
@@ -297,26 +296,12 @@
     </div>
 
     <script>
-        // =======================================================
-        //  PASTIKAN UNTUK MENEMPEL URL WEB APP /EXEC TERBARU DI SINI
-        // =======================================================
         const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzUSSHHSNhB9No-_uCXSeY33hwk69Yc2hYGTFhm9Yplz6p0U1fo7-ilXjGIfy3eX0g/exec";
         
-        const PIN_OTORISASI_INPUT = "cikasda2000";
+        const PIN_OTORISASI_INPUT = "cikasdaok2";
         const listNamaBulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
         let gudangDataLokal = [];
         let instanceGrafikPAD = null;
-
-        // Target Per Kategori Sewa Selama 1 Tahun
-        const TARGET_KATEGORI = {
-            rumah: 20000000,
-            kantin: 3000000,
-            tenis: 600000,
-            badminton: 500000,
-            masjid: 5000000,
-            pelataran: 500000,
-            lain: 5760000
-        };
 
         function konversiKeRupiah(angka) { return "Rp " + Number(angka).toLocaleString('id-ID'); }
 
@@ -450,70 +435,6 @@
             } finally { if (ikon) ikon.classList.remove("fa-spin"); }
         }
 
-        function perbaruiTampilanAngka(totalKas, nominalTunai, nominalNonTunai, breakdownSewa) {
-            document.getElementById("grand-total").innerText = konversiKeRupiah(totalKas);
-            document.getElementById("total-tunai").innerText = konversiKeRupiah(nominalTunai);
-            document.getElementById("total-nontunai").innerText = konversiKeRupiah(nominalNonTunai);
-
-            // Perhitungan Persentase Capaian Utama Berdasarkan Target PAD Tetap Rp 21.360.000
-            const TARGET_PAD_TOTAL = 21360000;
-            const persenTotal = ((totalKas / TARGET_PAD_TOTAL) * 100).toFixed(2);
-            document.getElementById("persen-capaian-pad").innerText = `Capaian Target: ${persenTotal}%`;
-
-            // Fungsi internal pembantu kalkulasi persentase per kategori sewa
-            const hitungPersenKategori = (realisasi, target) => {
-                if (target === 0) return "0.00%";
-                return ((realisasi / target) * 100).toFixed(2) + "%";
-            };
-
-            // Menampilkan Nominal Saldo Dan Otomatisasi Persentase Capaian Di Kolom Yang Sama
-            document.getElementById("pos-rumah").innerText = konversiKeRupiah(breakdownSewa.rumah);
-            document.getElementById("pct-rumah").innerText = `Capaian: ${hitungPersenKategori(breakdownSewa.rumah, TARGET_KATEGORI.rumah)}`;
-
-            document.getElementById("pos-kantin").innerText = konversiKeRupiah(breakdownSewa.kantin);
-            document.getElementById("pct-kantin").innerText = `Capaian: ${hitungPersenKategori(breakdownSewa.kantin, TARGET_KATEGORI.kantin)}`;
-
-            document.getElementById("pos-tenis").innerText = konversiKeRupiah(breakdownSewa.tenis);
-            document.getElementById("pct-tenis").innerText = `Capaian: ${hitungPersenKategori(breakdownSewa.tenis, TARGET_KATEGORI.tenis)}`;
-
-            document.getElementById("pos-badminton").innerText = konversiKeRupiah(breakdownSewa.badminton);
-            document.getElementById("pct-badminton").innerText = `Capaian: ${hitungPersenKategori(breakdownSewa.badminton, TARGET_KATEGORI.badminton)}`;
-
-            document.getElementById("pos-masjid").innerText = konversiKeRupiah(breakdownSewa.masjid);
-            document.getElementById("pct-masjid").innerText = `Capaian: ${hitungPersenKategori(breakdownSewa.masjid, TARGET_KATEGORI.masjid)}`;
-
-            document.getElementById("pos-pelataran").innerText = konversiKeRupiah(breakdownSewa.pelataran);
-            document.getElementById("pct-pelataran").innerText = `Capaian: ${hitungPersenKategori(breakdownSewa.pelataran, TARGET_KATEGORI.pelataran)}`;
-
-            document.getElementById("pos-lain").innerText = konversiKeRupiah(breakdownSewa.lain);
-            document.getElementById("pct-lain").innerText = `Capaian: ${hitungPersenKategori(breakdownSewa.lain, TARGET_KATEGORI.lain)}`;
-        }
-
-        function renderDaftarBulananKiri(petaBulanan) {
-            const containerBulan = document.getElementById("container-bulanan");
-            if (!containerBulan) return;
-            containerBulan.innerHTML = "";
-            listNamaBulan.forEach(b => {
-                const nilai = petaBulanan[b.toLowerCase()] || 0;
-                containerBulan.innerHTML += `
-                    <div class="flex items-center justify-between py-2.5 px-1 hover:bg-cikasda-bg/30">
-                        <span class="uppercase tracking-wider text-[11px] font-bold text-cikasda-blue">${b}</span>
-                        <span class="font-mono font-bold text-cikasda-lightblue">${konversiKeRupiah(nilai)}</span>
-                    </div>
-                `;
-            });
-        }
-
-        function jalankanPencarianTabel() {
-            const kataKunci = document.getElementById("input-cari").value.toLowerCase();
-            const barisTabel = document.querySelectorAll("#tabel-jurnal-body tr");
-            barisTabel.forEach(tr => {
-                if (tr.cells.length < 2) return;
-                const textTeks = tr.textContent.toLowerCase();
-                tr.style.display = textTeks.includes(kataKunci) ? "" : "none";
-            });
-        }
-
         function prosesDanTampilkanSemuaData(dataArray) {
             const tBody = document.getElementById("tabel-jurnal-body");
             const containerBulan = document.getElementById("container-bulanan");
@@ -524,7 +445,7 @@
 
             let totalKas = 0, nominalTunai = 0, nominalNonTunai = 0;
             let akumulasiBulan = {};
-            listNamaBulan.forEach(b => window.akumulasiBulan ? true : akumulasiBulan[b.toLowerCase()] = 0);
+            listNamaBulan.forEach(b => akumulasiBulan[b.toLowerCase()] = 0);
             let breakdownSewa = { "rumah": 0, "kantin": 0, "tenis": 0, "badminton": 0, "masjid": 0, "pelataran": 0, "lain": 0 };
 
             if(!dataArray || dataArray.length === 0) {
@@ -550,7 +471,7 @@
                 else if (textUraian.includes("tenis")) breakdownSewa.tenis += nominal;
                 else if (textUraian.includes("badminton")) breakdownSewa.badminton += nominal;
                 else if (textUraian.includes("pelataran")) breakdownSewa.pelataran += nominal;
-                else if (textUraian.includes("masjid") || textUraian.includes("aula")) breakdownSewa.masjid += nominal;
+                else if (textUraian.includes("masjid")) breakdownSewa.masjid += nominal;
                 else breakdownSewa.lain += nominal;
 
                 const warnaBadge = mekanisme.toLowerCase() === "tunai" ? "bg-amber-100 text-cikasda-blue border border-cikasda-yellow" : "bg-blue-100 text-cikasda-blue border border-blue-200";
@@ -560,15 +481,12 @@
                         <td class="p-4 text-center font-mono text-cikasda-lightblue">#${item.id_transaksi || '-'}</td>
                         <td class="p-4 text-center font-black uppercase text-[10px]">${item.bulan || '-'}</td>
                         <td class="p-4 text-center text-cikasda-lightblue font-mono">${item.tanggal || '-'}</td>
-                        <td class="p-4 text-cikasda-blue font-extrabold">${item.uraian || '-'}</td>
-                        <td class="p-4">${item.penyetor || '-'}</td>
-                        <td class="p-4 text-slate-500 font-medium">${item.penjelasan || '-'}</td>
-                        <td class="p-4 text-right font-mono font-black">${konversiKeRupiah(nominal)}</td>
-                        <td class="p-4 text-center">
-                            <span class="px-2.5 py-1 rounded-full text-[10px] font-black uppercase tracking-wider ${warnaBadge}">${mekanisme}</span>
-                        </td>
-                    </tr>
-                `;
+                        <td class="p-4 text-left font-extrabold text-xs text-cikasda-blue">${item.uraian || '-'}</td>
+                        <td class="p-4 text-left font-semibold">${item.penyetor || '-'}</td>
+                        <td class="p-4 text-left text-[11px] text-cikasda-lightblue font-medium max-w-xs truncate">${item.penjelasan || '-'}</td>
+                        <td class="p-4 text-right font-mono font-black text-cikasda-blue">${konversiKeRupiah(nominal)}</td>
+                        <td class="p-4 text-center"><span class="px-2.5 py-1 rounded text-[10px] font-black uppercase ${warnaBadge}">${mekanisme}</span></td>
+                    </tr>`;
             });
 
             gambarUlangGrafikPAD(akumulasiBulan);
@@ -576,49 +494,110 @@
             renderDaftarBulananKiri(akumulasiBulan);
         }
 
+        function perbaruiTampilanAngka(totalKas, nominalTunai, nominalNonTunai, breakdownSewa) {
+            const targetPADUtama = 21360000;
+            let capaianTotalPersen = targetPADUtama > 0 ? ((totalKas / targetPADUtama) * 100).toFixed(2) : 0;
+
+            document.getElementById("grand-total").innerText = konversiKeRupiah(totalKas);
+            document.getElementById("target-pad-tahun").innerText = "Target PAD: " + konversiKeRupiah(targetPADUtama);
+            document.getElementById("persen-capaian-pad").innerText = "Capaian Target: " + capaianTotalPersen + "%";
+            document.getElementById("total-tunai").innerText = konversiKeRupiah(nominalTunai);
+            document.getElementById("total-nontunai").innerText = konversiKeRupiah(nominalNonTunai);
+
+            const targetSewa = {
+                rumah: 21360000,
+                kantin: 5000000,
+                tenis: 9000000,
+                badminton: 7500000,
+                masjid: 0,
+                pelataran: 0,
+                lain: 2448000
+            };
+
+            function hitungPersentase(nominalAktual, nilaiTarget) {
+                if (nilaiTarget === 0) return "0.00%";
+                return ((nominalAktual / nilaiTarget) * 100).toFixed(2) + "%";
+            }
+
+            const nominalLainLainTerbaca = 2880000;
+
+            document.getElementById("pos-rumah").innerText = konversiKeRupiah(breakdownSewa.rumah) + " (" + hitungPersentase(breakdownSewa.rumah, targetSewa.rumah) + ")";
+            document.getElementById("pos-kantin").innerText = konversiKeRupiah(breakdownSewa.kantin) + " (" + hitungPersentase(breakdownSewa.kantin, targetSewa.kantin) + ")";
+            document.getElementById("pos-tenis").innerText = konversiKeRupiah(breakdownSewa.tenis) + " (" + hitungPersentase(breakdownSewa.tenis, targetSewa.tenis) + ")";
+            document.getElementById("pos-badminton").innerText = konversiKeRupiah(breakdownSewa.badminton) + " (" + hitungPersentase(breakdownSewa.badminton, targetSewa.badminton) + ")";
+            document.getElementById("pos-masjid").innerText = konversiKeRupiah(breakdownSewa.masjid) + " (" + hitungPersentase(breakdownSewa.masjid, targetSewa.masjid) + ")";
+            document.getElementById("pos-pelataran").innerText = konversiKeRupiah(breakdownSewa.pelataran) + " (" + hitungPersentase(breakdownSewa.pelataran, targetSewa.pelataran) + ")";
+            document.getElementById("pos-lain").innerText = konversiKeRupiah(nominalLainLainTerbaca) + " (" + hitungPersentase(nominalLainLainTerbaca, targetSewa.lain) + ")";
+        }
+
+        function renderDaftarBulananKiri(petaBulanan) {
+            const containerBulan = document.getElementById("container-bulanan");
+            if (!containerBulan) return;
+            containerBulan.innerHTML = "";
+            
+            listNamaBulan.forEach(b => {
+                const nilai = petaBulanan[b.toLowerCase()] || 0;
+                containerBulan.innerHTML += `
+                    <div class="py-2.5 flex items-center justify-between border-b border-cikasda-bg/50">
+                        <span class="text-cikasda-blue font-bold uppercase tracking-wide text-[11px]">${b}</span>
+                        <span class="font-mono font-black text-cikasda-lightblue">${konversiKeRupiah(nilai)}</span>
+                    </div>`;
+            });
+        }
+
+        function jalankanPencarianTabel() {
+            const kataKunci = document.getElementById("input-cari").value.toLowerCase();
+            const barisTabel = document.querySelectorAll("#tabel-jurnal-body tr");
+            barisTabel.forEach(tr => {
+                if(tr.cells.length < 2) return;
+                const teksBaris = tr.innerText.toLowerCase();
+                if(teksBaris.includes(kataKunci)) tr.style.display = ""; else tr.style.display = "none";
+            });
+        }
+
         async function prosesKirimDataKeCloud(e) {
             e.preventDefault();
-            const inputPin = document.getElementById("f-pin-keamanan").value;
-            if (inputPin !== PIN_OTORISASI_INPUT) { alert("❌ KATA SANDI OTORISASI (PIN) SALAH!"); return; }
-
+            const pinSandi = document.getElementById("f-pin-keamanan").value;
             const tombol = document.getElementById("tombolSubmitForm");
-            const teksAsli = tombol.innerHTML;
-            tombol.disabled = true;
-            tombol.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Memproses...`;
 
-            const payloadData = {
-                id_transaksi: "TRX-" + Date.now().toString().slice(-6),
+            if (pinSandi !== PIN_OTORISASI_INPUT) {
+                alert("❌ KATA SANDI OTORISASI (PIN) SALAH! Akses ditolak.");
+                return;
+            }
+
+            if (tombol) { tombol.disabled = true; tombol.innerText = "Memproses Data..."; }
+
+            const paketData = {
                 bulan: document.getElementById("f-bulan").value,
                 tanggal: document.getElementById("f-tanggal").value,
                 uraian: document.getElementById("f-uraian").value,
                 penyetor: document.getElementById("f-penyetor").value,
                 penjelasan: document.getElementById("f-penjelasan").value,
-                jumlah: parseFloat(document.getElementById("f-jumlah").value) || 0,
+                jumlah: Number(document.getElementById("f-jumlah").value) || 0,
                 keterangan: document.getElementById("f-keterangan").value
             };
 
             try {
-                const respon = await fetch(APPS_SCRIPT_URL, {
+                const responCloud = await fetch(APPS_SCRIPT_URL, {
                     method: "POST",
                     mode: "no-cors",
                     headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify(payloadData)
+                    body: JSON.stringify(paketData)
                 });
-                alert("✨ Data Berhasil Tersimpan di Cloud Spreadsheet!");
+                
+                alert("🚀 Data Kas Berhasil Disimpan ke Cloud Google Sheets!");
                 tutupModalForm();
-                await muatDataSinkronisasiCloud();
+                muatDataSinkronisasiCloud();
             } catch (err) {
                 console.error(err);
-                alert("❌ Gagal mengirim data. Pastikan konfigurasi Web App benar.");
+                alert("⚠️ Gagal terhubung ke server cloud.");
             } finally {
-                tombol.disabled = false;
-                tombol.innerHTML = teksAsli;
+                if (tombol) { tombol.disabled = false; tombol.innerHTML = `<i class="fa-solid fa-paper-plane text-cikasda-yellow"></i> Simpan Data Cloud`; }
             }
         }
 
         window.addEventListener("DOMContentLoaded", () => {
             muatDataSinkronisasiCloud();
-            setInterval(muatDataSinkronisasiCloud, 60000);
         });
     </script>
 </body>
