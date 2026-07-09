@@ -95,8 +95,8 @@
                 <h2 id="grand-total" class="text-3xl font-black text-cikasda-blue font-digital tracking-wider mt-3">Rp 0</h2>
                 
                 <div style="font-size: 11px; margin-top: 8px;" class="font-bold text-cikasda-lightblue/80">
-                    <div id="target-pad-tahun">Target PAD: Rp 21.360.000</div>
-                    <div id="persen-capaian-pad" class="text-cikasda-lightblue mt-0.5">Kenaikan Target: 0.00%</div>
+                    <div id="target-pad-tahun">Target PAD: Rp 40.308.000</div>
+                    <div id="persen-capaian-pad" class="text-cikasda-lightblue mt-0.5">Capaian Target: 0.00%</div>
                 </div>
 
                 <div class="flex items-center gap-4 mt-4 text-[11px] font-bold border-t border-cikasda-bg pt-3 text-cikasda-lightblue">
@@ -123,33 +123,54 @@
                 <i class="fa-solid fa-chart-pie text-cikasda-yellow"></i> Akumulasi Saldo Per Kategori Uraian Sewa
             </h3>
             <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3">
-                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-cikasda-blue bg-cikasda-cardbg">
-                    <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Rumah Dinas</span>
-                    <span id="pos-rumah" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-cikasda-blue bg-cikasda-cardbg flex flex-col justify-between min-h-[110px]">
+                    <div>
+                        <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Rumah Dinas</span>
+                        <span id="pos-rumah" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                    </div>
+                    <span id="capaian-rumah" class="text-[9px] font-bold text-slate-500 block mt-2 pt-1 border-t border-slate-100">Capaian: 0.00%</span>
                 </div>
-                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-cikasda-yellow bg-cikasda-cardbg">
-                    <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Sewa Kantin</span>
-                    <span id="pos-kantin" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-cikasda-yellow bg-cikasda-cardbg flex flex-col justify-between min-h-[110px]">
+                    <div>
+                        <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Sewa Kantin</span>
+                        <span id="pos-kantin" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                    </div>
+                    <span id="capaian-kantin" class="text-[9px] font-bold text-slate-500 block mt-2 pt-1 border-t border-slate-100">Capaian: 0.00%</span>
                 </div>
-                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-emerald-600 bg-cikasda-cardbg">
-                    <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Lap. Tenis</span>
-                    <span id="pos-tenis" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-emerald-600 bg-cikasda-cardbg flex flex-col justify-between min-h-[110px]">
+                    <div>
+                        <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Lap. Tenis</span>
+                        <span id="pos-tenis" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                    </div>
+                    <span id="capaian-tenis" class="text-[9px] font-bold text-slate-500 block mt-2 pt-1 border-t border-slate-100">Capaian: 0.00%</span>
                 </div>
-                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-indigo-600 bg-cikasda-cardbg">
-                    <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Badminton</span>
-                    <span id="pos-badminton" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-indigo-600 bg-cikasda-cardbg flex flex-col justify-between min-h-[110px]">
+                    <div>
+                        <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Badminton</span>
+                        <span id="pos-badminton" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                    </div>
+                    <span id="capaian-badminton" class="text-[9px] font-bold text-slate-500 block mt-2 pt-1 border-t border-slate-100">Capaian: 0.00%</span>
                 </div>
-                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-teal-600 bg-cikasda-cardbg">
-                    <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Aula Masjid Raya</span>
-                    <span id="pos-masjid" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-teal-600 bg-cikasda-cardbg flex flex-col justify-between min-h-[110px]">
+                    <div>
+                        <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Aula Masjid Raya</span>
+                        <span id="pos-masjid" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                    </div>
+                    <span id="capaian-masjid" class="text-[9px] font-bold text-slate-500 block mt-2 pt-1 border-t border-slate-100">Capaian: 0.00%</span>
                 </div>
-                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-cyan-500 bg-cikasda-cardbg">
-                    <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Pelataran Msd</span>
-                    <span id="pos-pelataran" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-cyan-500 bg-cikasda-cardbg flex flex-col justify-between min-h-[110px]">
+                    <div>
+                        <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Pelataran Msd</span>
+                        <span id="pos-pelataran" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                    </div>
+                    <span id="capaian-pelataran" class="text-[9px] font-bold text-slate-500 block mt-2 pt-1 border-t border-slate-100">Capaian: 0.00%</span>
                 </div>
-                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-amber-600 bg-cikasda-cardbg">
-                    <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Lain-Lain</span>
-                    <span id="pos-lain" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                <div class="glass-panel p-3.5 rounded-xl border-t-4 border-amber-600 bg-cikasda-cardbg flex flex-col justify-between min-h-[110px]">
+                    <div>
+                        <span class="text-[9px] font-bold text-cikasda-lightblue uppercase block">Lain-Lain</span>
+                        <span id="pos-lain" class="text-xs font-black text-cikasda-blue font-mono mt-1 block">Rp 0</span>
+                    </div>
+                    <span id="capaian-lain" class="text-[9px] font-bold text-slate-500 block mt-2 pt-1 border-t border-slate-100">Capaian: 0.00%</span>
                 </div>
             </div>
         </section>
@@ -160,7 +181,7 @@
                     <i class="fa-solid fa-calendar-check text-cikasda-yellow"></i> Ikhtisar Laporan bulanan
                 </p>
                 <div id="container-bulanan" class="flex-1 overflow-y-auto custom-scrollbar divide-y divide-cikasda-bg text-xs font-semibold">
-                    </div>
+                </div>
             </div>
 
             <div class="lg:col-span-2 glass-panel rounded-2xl p-5 flex flex-col justify-between h-[340px] bg-cikasda-cardbg">
@@ -198,7 +219,7 @@
                         </tr>
                     </thead>
                     <tbody id="tabel-jurnal-body" class="divide-y divide-cikasda-bg font-bold text-cikasda-blue">
-                        </tbody>
+                    </tbody>
                 </table>
             </div>
         </div>
@@ -289,15 +310,24 @@
     </div>
 
     <script>
-        // =======================================================
-        //  PASTIKAN UNTUK MENEMPEL URL WEB APP /EXEC TERBARU DI SINI
-        // =======================================================
         const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzUSSHHSNhB9No-_uCXSeY33hwk69Yc2hYGTFhm9Yplz6p0U1fo7-ilXjGIfy3eX0g/exec";
         
         const PIN_OTORISASI_INPUT = "cikasda2000";
         const listNamaBulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
         let gudangDataLokal = [];
         let instanceGrafikPAD = null;
+
+        // Definisi Konfigurasi Target Tahunan Baru Sesuai Permintaan
+        const TARGET_KATEGORI = {
+            rumah: 21360000,
+            kantin: 5000000,
+            tenis: 9000000,
+            badminton: 7500000,
+            masjid: 0,
+            pelataran: 0,
+            lain: 2448000
+        };
+        const TOTAL_TARGET_PAD = Object.values(TARGET_KATEGORI).reduce((a, b) => a + b, 0);
 
         function konversiKeRupiah(angka) { return "Rp " + Number(angka).toLocaleString('id-ID'); }
 
@@ -467,7 +497,7 @@
                 else if (textUraian.includes("tenis")) breakdownSewa.tenis += nominal;
                 else if (textUraian.includes("badminton")) breakdownSewa.badminton += nominal;
                 else if (textUraian.includes("pelataran")) breakdownSewa.pelataran += nominal;
-                else if (textUraian.includes("masjid")) breakdownSewa.masjid += nominal;
+                else if (textUraian.includes("masjid") || textUraian.includes("aula")) breakdownSewa.masjid += nominal;
                 else breakdownSewa.lain += nominal;
 
                 const warnaBadge = mekanisme.toLowerCase() === "tunai" ? "bg-amber-100 text-cikasda-blue border border-cikasda-yellow" : "bg-blue-100 text-cikasda-blue border border-blue-200";
@@ -478,45 +508,52 @@
                         <td class="p-4 text-center font-black uppercase text-[10px]">${item.bulan || '-'}</td>
                         <td class="p-4 text-center text-cikasda-lightblue font-mono">${item.tanggal || '-'}</td>
                         <td class="p-4 text-cikasda-blue font-extrabold">${item.uraian || '-'}</td>
-                        <td class="p-4 text-cikasda-lightblue">${item.penyetor || '-'}</td>
-                        <td class="p-4 text-cikasda-blue/70 italic font-medium">${item.penjelasan || '-'}</td>
-                        <td class="p-4 text-right font-black font-mono">${konversiKeRupiah(nominal)}</td>
-                        <td class="p-4 text-center"><span class="px-2.5 py-0.5 rounded text-[9px] font-black uppercase ${warnaBadge}">${mekanisme}</span></td>
-                    </tr>`;
+                        <td class="p-4">${item.penyetor || '-'}</td>
+                        <td class="p-4 text-slate-500 font-medium">${item.penjelasan || '-'}</td>
+                        <td class="p-4 text-right font-mono font-black">${konversiKeRupiah(nominal)}</td>
+                        <td class="p-4 text-center">
+                            <span class="px-2.5 py-1 rounded-full text-[10px] font-black uppercase tracking-wider ${warnaBadge}">${mekanisme}</span>
+                        </td>
+                    </tr>
+                `;
             });
 
+            gambarUlangGrafikPAD(akumulasiBulan);
             perbaruiTampilanAngka(totalKas, nominalTunai, nominalNonTunai, breakdownSewa);
             renderDaftarBulananKiri(akumulasiBulan);
-            gambarUlangGrafikPAD(akumulasiBulan);
         }
 
-        function perbaruiTampilanAngka(grandTotal, tunai, nonTunai, sewa) {
-            const g = document.getElementById("grand-total");
-            const t = document.getElementById("total-tunai");
-            const nt = document.getElementById("total-nontunai");
-            
-            if (g) g.innerText = konversiKeRupiah(grandTotal);
-            if (t) t.innerText = konversiKeRupiah(tunai);
-            if (nt) nt.innerText = konversiKeRupiah(nonTunai);
+        function perbaruiTampilanAngka(total, tunai, nontunai, objekSewa) {
+            document.getElementById("grand-total").innerText = konversiKeRupiah(total);
+            document.getElementById("total-tunai").innerText = konversiKeRupiah(tunai);
+            document.getElementById("total-nontunai").innerText = konversiKeRupiah(nontunai);
 
-            // ===================================================================
-            // MODUL KALKULASI PERSENTASE KENAIKAN REAL-TIME DARI TARGET PAD 21.360.000
-            // ===================================================================
-            const targetPAD = 21360000;
-            let persenCapaian = (targetPAD > 0) ? (grandTotal / targetPAD) * 100 : 0;
-            
-            const txtTarget = document.getElementById("target-pad-tahun");
-            const txtPersen = document.getElementById("persen-capaian-pad");
-            
-            if (txtTarget) txtTarget.innerText = "Target PAD: Rp " + targetPAD.toLocaleString('id-ID');
-            if (txtPersen) txtPersen.innerText = "Kenaikan Target: " + persenCapaian.toFixed(2) + "%";
-            // ===================================================================
+            document.getElementById("pos-rumah").innerText = konversiKeRupiah(objekSewa.rumah);
+            document.getElementById("pos-kantin").innerText = konversiKeRupiah(objekSewa.kantin);
+            document.getElementById("pos-tenis").innerText = konversiKeRupiah(objekSewa.tenis);
+            document.getElementById("pos-badminton").innerText = konversiKeRupiah(objekSewa.badminton);
+            document.getElementById("pos-masjid").innerText = konversiKeRupiah(objekSewa.masjid);
+            document.getElementById("pos-pelataran").innerText = konversiKeRupiah(objekSewa.pelataran);
+            document.getElementById("pos-lain").innerText = konversiKeRupiah(objekSewa.lain);
 
-            const idMap = { "pos-rumah": sewa.rumah, "pos-kantin": sewa.kantin, "pos-tenis": sewa.tenis, "pos-badminton": sewa.badminton, "pos-masjid": sewa.masjid, "pos-pelataran": sewa.pelataran, "pos-lain": sewa.lain };
-            Object.keys(idMap).forEach(id => {
-                const el = document.getElementById(id);
-                if (el) el.innerText = konversiKeRupiah(idMap[id]);
-            });
+            // Rumus Otomatis Persentase Capaian Target Per Kolom Kategori
+            const hitungPersen = (realisasi, target) => {
+                if (!target || target === 0) return realisasi > 0 ? "100.00%" : "0.00%";
+                return ((realisasi / target) * 100).toFixed(2) + "%";
+            };
+
+            document.getElementById("capaian-rumah").innerText = `Capaian: ${hitungPersen(objekSewa.rumah, TARGET_KATEGORI.rumah)}`;
+            document.getElementById("capaian-kantin").innerText = `Capaian: ${hitungPersen(objekSewa.kantin, TARGET_KATEGORI.kantin)}`;
+            document.getElementById("capaian-tenis").innerText = `Capaian: ${hitungPersen(objekSewa.tenis, TARGET_KATEGORI.tenis)}`;
+            document.getElementById("capaian-badminton").innerText = `Capaian: ${hitungPersen(objekSewa.badminton, TARGET_KATEGORI.badminton)}`;
+            document.getElementById("capaian-masjid").innerText = `Capaian: ${hitungPersen(objekSewa.masjid, TARGET_KATEGORI.masjid)}`;
+            document.getElementById("capaian-pelataran").innerText = `Capaian: ${hitungPersen(objekSewa.pelataran, TARGET_KATEGORI.pelataran)}`;
+            document.getElementById("capaian-lain").innerText = `Capaian: ${hitungPersen(objekSewa.lain, TARGET_KATEGORI.lain)}`;
+
+            // Rumus Makro Target PAD Keseluruhan
+            document.getElementById("target-pad-tahun").innerText = `Target PAD: ${konversiKeRupiah(TOTAL_TARGET_PAD)}`;
+            const persenTotal = TOTAL_TARGET_PAD > 0 ? ((total / TOTAL_TARGET_PAD) * 100).toFixed(2) : 0;
+            document.getElementById("persen-capaian-pad").innerText = `Capaian Target: ${persenTotal}%`;
         }
 
         function renderDaftarBulananKiri(petaBulanan) {
@@ -526,40 +563,36 @@
             listNamaBulan.forEach(b => {
                 const nilai = petaBulanan[b.toLowerCase()] || 0;
                 containerBulan.innerHTML += `
-                    <div class="flex items-center justify-between py-2.5 px-2 hover:bg-cikasda-bg/40 transition-colors">
-                        <span class="text-cikasda-blue font-bold uppercase text-[10px] tracking-wider">${b}</span>
-                        <span class="font-mono text-cikasda-lightblue">${konversiKeRupiah(nilai)}</span>
-                    </div>`;
+                    <div class="flex items-center justify-between py-2.5 px-1 hover:bg-cikasda-bg/30">
+                        <span class="uppercase tracking-wider text-[11px] font-bold text-cikasda-blue">${b}</span>
+                        <span class="font-mono font-bold text-cikasda-lightblue">${konversiKeRupiah(nilai)}</span>
+                    </div>
+                `;
             });
         }
 
         function jalankanPencarianTabel() {
-            const inputVal = (document.getElementById("input-cari").value || "").trim().toLowerCase();
-            if (!gudangDataLokal || gudangDataLokal.length === 0) return;
-            if (!inputVal) { prosesDanTampilkanSemuaData(gudangDataLokal); return; }
-
-            const hasilFilter = gudangDataLokal.filter(item => {
-                return (item.bulan || "").toLowerCase().includes(inputVal) ||
-                       (item.uraian || "").toLowerCase().includes(inputVal) ||
-                       (item.penyetor || "").toLowerCase().includes(inputVal) ||
-                       (item.penjelasan || "").toLowerCase().includes(inputVal) ||
-                       (item.keterangan || "").toLowerCase().includes(inputVal) ||
-                       (item.tanggal || "").toLowerCase().includes(inputVal);
+            const kataKunci = document.getElementById("input-cari").value.toLowerCase();
+            const barisTabel = document.querySelectorAll("#tabel-jurnal-body tr");
+            barisTabel.forEach(tr => {
+                if(tr.cells.length < 2) return;
+                const textTeks = tr.textContent.toLowerCase();
+                tr.style.display = textTeks.includes(kataKunci) ? "" : "none";
             });
-            prosesDanTampilkanSemuaData(hasilFilter);
         }
 
-        async function prosesKirimDataKeCloud(event) {
-            event.preventDefault();
-            const bSubmit = document.getElementById("tombolSubmitForm");
-            const pinVal = document.getElementById("f-pin-keamanan").value;
+        async function prosesKirimDataKeCloud(e) {
+            e.preventDefault();
+            const inputPin = document.getElementById("f-pin-keamanan").value;
+            if (inputPin !== PIN_OTORISASI_INPUT) { alert("❌ KATA SANDI OTORISASI (PIN) SALAH!"); return; }
 
-            if (pinVal !== PIN_OTORISASI_INPUT) { alert("⚠️ KATA SANDI OTORISASI SALAH! Data ditolak oleh sistem."); return; }
-            if (APPS_SCRIPT_URL.includes("MASUKKAN_URL")) { alert("URL Web App belum terkonfigurasi dengan benar."); return; }
+            const tombol = document.getElementById("tombolSubmitForm");
+            const teksAsli = tombol.innerHTML;
+            tombol.disabled = true;
+            tombol.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Memproses...`;
 
-            if (bSubmit) { bSubmit.disabled = true; bSubmit.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Memproses Data...`; }
-
-            const dataPayload = {
+            const payloadData = {
+                id_transaksi: "TRX-" + Date.now().toString().slice(-6),
                 bulan: document.getElementById("f-bulan").value,
                 tanggal: document.getElementById("f-tanggal").value,
                 uraian: document.getElementById("f-uraian").value,
@@ -574,16 +607,24 @@
                     method: "POST",
                     mode: "no-cors",
                     headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify(dataPayload)
+                    body: JSON.stringify(payloadData)
                 });
-                alert("✨ Sukses! Data penerimaan kas sewa berhasil disimpan ke Google Sheets Cloud.");
+                alert("✨ Data Berhasil Tersimpan di Cloud Spreadsheet!");
                 tutupModalForm();
-                setTimeout(() => { muatDataSinkronisasiCloud(); }, 800);
-            } catch (err) { console.error(err); alert("Terjadi kesalahan koneksi internet."); }
-            finally { if (bSubmit) { bSubmit.disabled = false; bSubmit.innerHTML = `<i class="fa-solid fa-paper-plane text-cikasda-yellow"></i> Simpan Data Cloud`; } }
+                await muatDataSinkronisasiCloud();
+            } catch (err) {
+                console.error(err);
+                alert("❌ Gagal mengirim data. Pastikan konfigurasi Web App benar.");
+            } finally {
+                tombol.disabled = false;
+                tombol.innerHTML = teksAsli;
+            }
         }
 
-        window.addEventListener("DOMContentLoaded", () => { muatDataSinkronisasiCloud(); });
+        window.addEventListener("DOMContentLoaded", () => {
+            muatDataSinkronisasiCloud();
+            setInterval(muatDataSinkronisasiCloud, 60000);
+        });
     </script>
 </body>
 </html>
